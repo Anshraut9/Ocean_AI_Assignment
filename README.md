@@ -52,6 +52,7 @@ Auto-Reply Prompt
 All LLM processing uses your saved prompts.
 
 ## 📂 Project Structure
+```bash
 Email_Agent_Project/
 │
 ├── app.py                  # Main Streamlit application
@@ -64,11 +65,15 @@ Email_Agent_Project/
 │
 └── README.md               # Documentation file
 
+```
+
 
 ## 🛠️ Installation & Setup
 1️⃣ Clone or download the project
-git clone <your_repository_url>
+```bash
+git clone https://github.com/Anshraut9/Ocean_AI_Assignment
 cd Email_Agent_Project
+```
 
 2️⃣ Create and activate a virtual environment
 Windows
@@ -84,30 +89,31 @@ source venv/bin/activate
 ```
 
 3️⃣ Install required dependencies
+```bash
 pip install streamlit google-generativeai python-dotenv pandas
+```
 
 4️⃣ Add your Gemini API key
 
 Create a file named .env in the project root:
-
+```bash
 GOOGLE_API_KEY=YOUR_GEMINI_API_KEY_HERE
-
+```
 
 You can get a free key from:
+```bash
 🔗 https://aistudio.google.com
-
+```
 
 
 ##▶️ Running the Application
 
 Start the Streamlit app:
-
+```bash
 streamlit run app.py
+```
 
-
-A browser will open automatically at:
-
-http://localhost:8501/
+A browser will open automatically 
 
 📥 Loading the Mock Inbox
 
