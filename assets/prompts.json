@@ -1,0 +1,5 @@
+{
+    "categorization": "Categorize the following email into: 'Important', 'Newsletter', 'Spam', or 'To-Do'. Return ONLY the category name.",
+    "action_item": "Extract tasks from this email. Return ONLY a valid JSON list of objects with keys 'task' and 'deadline'. If no task, return [].",
+    "auto_reply": "You are a strict Project Manager. Reject this request citing budget cuts, Be brief."
+}

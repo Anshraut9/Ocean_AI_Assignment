@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "sender": "boss@company.com",
+    "subject": "Q3 Report Due",
+    "body": "Hi, just a reminder that I need the Q3 financial report by Friday 5 PM. Please ensure the marketing data is included.",
+    "timestamp": "2023-10-24 09:00"
+  },
+  {
+    "id": 2,
+    "sender": "newsletter@techweekly.com",
+    "subject": "Top 10 AI Tools of the Week",
+    "body": "Here are the top tools you missed this week... [Link]",
+    "timestamp": "2023-10-24 10:30"
+  },
+  {
+    "id": 3,
+    "sender": "nigerian_prince@scam.com",
+    "subject": "Urgent Business Opportunity",
+    "body": "I have $50M USD I need to transfer...",
+    "timestamp": "2023-10-24 11:00"
+  }
+]
