@@ -72,12 +72,16 @@ cd Email_Agent_Project
 
 2️⃣ Create and activate a virtual environment
 Windows
+```bash
 python -m venv venv
 .\venv\Scripts\activate
+```
 
 Mac/Linux
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 3️⃣ Install required dependencies
 pip install streamlit google-generativeai python-dotenv pandas
@@ -199,6 +203,18 @@ Click Generate Draft Reply
 The draft uses:
 
 Auto-reply prompt
+
+
+
+## 🙌 Credits
+
+Built using:
+
+🧠 Google Gemini API
+
+📊 Streamlit UI Framework
+
+🐍 Python
 
 Email content
 
